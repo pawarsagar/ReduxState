@@ -25,7 +25,7 @@ class Home extends React.Component {
         }
         else {
             this.props.callFunction(this.state.Name, this.state.Age, this.state.Marks)
-            Alert.alert('Added', "Details added")
+            Alert.alert('Added', "Details are added")
         }
     }
 
