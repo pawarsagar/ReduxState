@@ -30,8 +30,8 @@ class Home extends React.Component {
     }
 
     click() {
-        var count = Object.keys(this.props.state.user).length;
-        count == 0 ? Alert.alert("Data is Blank", "Please enter data to avoid this message") : this.props.navigation.navigate('histroy')
+        var length = Object.keys(this.props.state.user).length;
+        length == 0 ? Alert.alert("Data is Blank", "Please enter data to avoid this message") : this.props.navigation.navigate('histroy')
     }
 
     render() {
